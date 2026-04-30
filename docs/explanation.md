@@ -1,5 +1,5 @@
-# Explicaciion 
-## Explicaion de Cuadratura Guaussiana
+# Explicacion 
+## Explicacion de Cuadratura Guaussiana
 La idea principal está dada por
 
 \begin{align}
