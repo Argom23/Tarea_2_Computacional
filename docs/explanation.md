@@ -1,4 +1,5 @@
-# Cuadratura Gaussiana
+# Explicaciion 
+## Explicaion de Cuadratura Guaussiana
 La idea principal está dada por
 
 \begin{align}
@@ -9,7 +10,7 @@ donde:
   * $w_k$ son los "pesos"
   * $x_k$ son los puntos de muestreo
   
-Para las ecuaciones de Newton-Cotes de la clase anterior:  
+Para las ecuaciones de Newton-Cotes:  
   * Los puntos de muestreo son **equidistantes**.
   * Una ecuación de Newton-Cotes de orden $N$ es *exacta* (i.e., no hay aproximación) para un polinomio de grado $N$.
   * Un polinomio de orden $N$ aproxima una función bien comportada mejor que un polinomio de orden $N-1$, debido al grado de libertad añadido.

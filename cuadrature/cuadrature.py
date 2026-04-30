@@ -12,9 +12,9 @@ def gaussxw(N):
         N (int): Number of quadrature points (order of the approximation).
 
     Returns:
-        tuple:
-            - x (ndarray): Quadrature points in the interval [-1, 1].
-            - w (ndarray): Corresponding weights for each point.
+        tuple: 
+            - x (array): Quadrature points in the interval [-1, 1].
+            - w (array): Corresponding weights for each point.
 
     Examples:
         >>> x, w = gaussxw(2)
@@ -35,14 +35,15 @@ def gaussxwab(a, b, x, w):
     Args:
         a (float): Lower bound of the target interval.
         b (float): Upper bound of the target interval.
-        x (array-like): Quadrature points defined in [-1, 1].
-        w (array-like): Corresponding weights for the points x.
+        x (array): Quadrature points defined in [-1, 1].
+        w (array): Corresponding weights for the points x.
 
     Returns:
         tuple:
-            - x_scaled: points mapped to the interval [a, b]
-            - w_scaled: weights adjusted for the new interval
-   Examples:
+            - x_scaled (arrays): points mapped to the interval [a, b].
+            - w_scaled (arrays): weights adjusted for the new interval.
+    
+    Examples:
         >>> x, w = gaussxw(2.0)
         >>> x_scaled, w_scaled = gaussxwab(0, 2, x, w)
         >>> x
